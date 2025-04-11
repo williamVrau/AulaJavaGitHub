@@ -22,7 +22,6 @@ public class Exercicio14 {
         lista.add(13);
         lista.add(15);
         lista.add(17);
-
         int pares = 0;
         int impar = 0;
         for (Integer i :lista){
@@ -32,6 +31,6 @@ public class Exercicio14 {
             else {
                 impar++;
             }
-
-    }
+            System.out.println("A quantidade de Pares Sao "+ pares+ " É a de Impares "+impar);
+        }
 }
